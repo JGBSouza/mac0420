@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>EP01 INTRO CG - IME - USP</title>
+    <script type="text/javascript" src="ep01.js"></script>
+    <link rel="stylesheet" type="text/css" href="ep01.css">
+</head>
+
+<body>
+    <h1>LiguI-ME - EP01 - MAC0420/MAC5744</h1>
+    <input type="number" min="1" max="4" value='2' placeholder="No linhas" id="nRows">
+    <input type="number" min="1" max="4" value='2' placeholder="No col" id="nCols">
+
+    <button id="bRegenerate">Recriar tabuleiro</button>
+    <p></p>
+    <!--
+    <p>Cada bolinha contém o resultado de uma das equações mostradas no tabuleiro. Clique e arraste cada bolinha para uma posição no tabuleiro correspondente ao resultado correto da equação. Depois de completar o tabuleiro, clique o botão Enviar.</p>
+    -->
+
+    <canvas id="gridCanvas" width="400" height="400"></canvas>
+    <div class="number-pool" id="numberPool"></div>
+    <p></p>
+    <button id="bCheck" disabled>Enviar</button>
+</body>
+
+</html>
