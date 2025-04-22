@@ -1,0 +1,19 @@
+Exercício Programa 1 (EP1): LiguI-ME
+
+Esse é um exercício individual. Veja na página da disciplina as informações sobre a entrega de EPs.
+Data de entrega: Sábado, 6 de abril de 2025, até 23:59 h. Veja a política de desconto em caso de atraso.
+O que entregar: Um arquivo zip contendo todos os arquivos necessários para executar o seu programa. Como esqueleto do HTML, CSS e Javascript. Você pode usar as ferramentas disponíveis no Apêndice 1 (https://panda.ime.usp.br/introcg/static/introcg/a01-programacao.html) da nossa apostila online (https://panda.ime.usp.br/introcg/static/introcg/).
+Objetivos
+Treinar a sua habilidade com HTML, CSS e Javascript para criar um programa Web interativo, usando o Canvas 2d. Isso vai permitir também treinar o uso de funções de callback como drag-and-drop.
+Para uma breve revisão de HTML, CSS e Javascript leia o apêndice 1 da nossa apostila online (https://panda.ime.usp.br/introcg/static/introcg/).
+Descrição
+Você deverá implementar um programa interativo usando HTML, CSS e Javascript para criar um jogo de associação entre equações e resultados. As equações devem ser mostradas em um tabuleiro com nlins linhas e ncols colunas. Inicialmente, você pode assumir o valor default de 2 linhas e 2 colunas.
+Abaixo do tabuleiro o jogo deve mostrar nlins × ncols bolas com os valores correspondentes aos resultados das equações.
+O objetivo do jogo é colocar cada bola sobre a casa do tabuleiro que corresponda ao resultado correto da equação.
+Apenas quando todas as bolas estiverem depositadas, o botão Enviar deve ser habilitado. Enquanto haver casas vazias no tabuleiro, o botão Enviar deve permanecer desabilitado e as bolas podem mudar de casa.
+Detalhes como resolução do canvas, cores, etc., podem ser vistas nos arquivos que acompanham esse enunciado ep01.zip (https://drive.google.com/file/d/1-pU2mF1HoPLqNv_fvdQbl_ikuXVJuHVN/view?usp=drive_link).
+Para entender melhor o funcionamento do jogo, veja esse vídeo (https://drive.google.com/file/d/1wzU-_MT53gDDwF66Fa0ylc4_ZzKJVb5s/view?usp=drive_link).
+Dicas
+As equações podem ser simples, como apenas soma de inteiros de 2 dígitos. Sorteie tudo que você precisar (operadores, operações etc.), e cria a lista de equações e resultados.
+Para facilitar a correção adote os nomes ep01.html, ep01.css e ep01.js para os seus arquivos e inclua o seguinte cabeçalho apenas no arquivo ep01.js:
+/* ================================================== Exercício programa de MAC0420/MAC5744 Nome: NUSP: Ao preencher esse cabeçalho com o meu nome e o meu número USP, declaro que todas as partes originais desse exercício programa (EP) foram desenvolvidas e implementadas por mim e que portanto não constituem desonestidade acadêmica ou plágio. Declaro também que sou responsável por todas as cópias desse programa e que não distribui ou facilitei a sua distribuição. Estou ciente que os casos de plágio e desonestidade acadêmica serão tratados segundo os critérios divulgados na página da disciplina. Entendo que EPs sem assinatura devem receber nota zero e, ainda assim, poderão ser punidos por desonestidade acadêmica. Abaixo descreva qualquer ajuda que você recebeu para fazer este EP. Inclua qualquer ajuda recebida por pessoas (inclusive monitores e colegas). Com exceção de material da disciplina, caso você tenha utilizado alguma informação, trecho de código,... indique esse fato abaixo para que o seu programa não seja considerado plágio ou irregular. Exemplo: A minha função quicksort() foi baseada na descrição encontrada na página https://www.ime.usp.br/~pf/algoritmos/aulas/quick.html. Descrição de ajuda ou indicação de fonte: ================================================== */
