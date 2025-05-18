@@ -1,0 +1,31 @@
+EP02 - MAC0420
+Aluno: João Guilherme Barbosa de Souza
+NUSP: 12543850
+
+Introdução
+Este projeto é o de um jogo Paredão, desenvolvido com WebGL 2.0, no qual o jogador controla uma raquete para rebater uma bolinha e quebrar todos 
+os tijolos presentes no topo da tela.
+
+Horas de trabalho
+Por semana: Aproximadamente 5 horas
+
+Total: Cerca de 16 horas
+
+Dificuldades
+Durante o desenvolvimento do EP, algumas das dificuldades apresentadas foram:
+
+A adaptação à programação com WebGL ao invés do canvas tradicional.
+
+Implementação precisa da detecção de colisões, em especial entre a bolinha e os tijolos, levando em conta a sobreposição nos eixos X e Y 
+para entender corretamente em qual eixo ocorre a colisão e qual das velocidades da bolinha deveria ser alterada.
+
+Garantir que a movimentação da raquete fosse limitada aos limites da tela, considerando diferentes larguras definidas pelo usuário.
+
+Detectar a colisão com a raquete de forma eficiente, uma vez que usar detecção aabb (usada nos tijolos) não servia, uma vez que, ao contrário
+dos tijolos, a raquete permanecia lá e a detecção ocasionava em colisões sequenciais que deixava um comportamento imprevisível na bolinha.
+
+Bugs
+A colisão entre a bolinha e os cantos da raquete pode, em raras ocasiões, resultar em comportamentos inesperados (por exemplo, inversão em X e Y simultaneamente).
+
+A lógica de pausa/fim de jogo ainda não está totalmente integrada à interface (falta, por exemplo, mostrar uma mensagem de "fim de jogo").
+

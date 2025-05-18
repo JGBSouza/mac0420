@@ -29,6 +29,8 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="paredao.css">
+    <script src="https://www.ime.usp.br/~hitoshi/mac0420/libs/macWebglUtils.js"></script>
+	<script src="https://www.ime.usp.br/~hitoshi/mac0420/libs/MVnew.js"></script>
     <script src="paredao.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,14 +38,14 @@
 </head>
 <body>
     <div class="row">
-        <button>Jogar</button>
-        <button>Limpar</button>
+        <button id="Jogar">Jogar</button>
+        <button id="Limpar">Limpar</button>
     </div>
     <div class="row">
-        Velocidade da bola:<input type="range" value="1" max="10" min="1"/>
-        Tamanho da Raquete:<input type="range" value="1" max="10" min="1"/>
+        Velocidade da bola:<input id="velocidadeBola" type="range" value="1" max="10" min="1"/>
+        Tamanho da Raquete:<input id="tamanhoRaquete" type="range" value="1" max="10" min="1"/>
 
     </div>
-    <canvas class="canvas" width="640" height="480"></canvas>
+    <canvas id="gridCanvas" width="640" height="480"></canvas>
 </body>
 </html>
